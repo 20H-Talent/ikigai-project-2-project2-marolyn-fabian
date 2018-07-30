@@ -1,0 +1,21 @@
+* {
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.debbug {
+    border: 2px solid red;
+}
+
+.cualquiera {
+    display: inline-block;
+}
+
+.cualquiera li {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+}
