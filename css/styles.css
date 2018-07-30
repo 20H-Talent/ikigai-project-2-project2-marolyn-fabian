@@ -1,21 +1,52 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
+    box-align: center;
+ 
 }
+
 
 body {
     background-color: #fafafa;
+    font-family: sans-serif;
+
 }
 
 .debbug {
     border: 2px solid red;
 }
+ 
+/* header */
 
-.cualquiera {
-    display: inline-block;
+header {
+    /* display: inline-block; */
+    text-align: center;
+    margin: auto;
+    color: #494949;
+    font-weight: bold;
+
 }
 
 .cualquiera li {
     background-color: #ffffff;
     padding: 20px;
     margin: 10px;
+    list-style-type: none;
+    text-transform: uppercase;
+
+    
+}
+
+ul {
+    padding: 0 40px;
+}
+
+/* face */
+
+.face {
+    /* justify-content: center; */
+    text-align: center;
+    color: #808080;
+    letter-spacing: 1.5px;
+    padding: 20px;
+    
 }
