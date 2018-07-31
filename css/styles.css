@@ -13,11 +13,11 @@ body {
 }
 
 img {
-    width: 70%;
+    width: 90%;
     align-content: center;    
 }
 
-h2 {
+h4 {
     text-align: center;
     text-transform: uppercase; 
 }
@@ -56,12 +56,20 @@ ul {
     color: #808080;
     line-height: 1.5em;
     padding: 20px;    
+    margin-bottom: 50px;
+}
+
+.face img{
+    width: 70%;
 }
 
 /* Seccions */
 
 .col {
     text-align: center;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    color: #4a4a4a;
 }
 
 .title {
