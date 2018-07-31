@@ -73,23 +73,26 @@ ul {
 
 /*Footer*/
 
-.main-footer {
-    text-align: center;  
-}
-
+ footer {
+    border-top: 1px solid #808080;
+    font-weight: bold;
+  }
+  
 .bottom-footer-left {
-    text-align: left;   
+    text-align: left;  
+    display: inline-block; 
+    padding: 0 16px;
 }
 
 .bottom-footer-rigth {
     text-align: right;
+    float: right;
+    padding: 0 16px;
+    text-transform: uppercase; 
+
 }
 
- footer {
-    
-    border-top: 1px solid #808080;
-  }
-  
+
 /* Media Queries */
 
 @media (min-width:768px) {
