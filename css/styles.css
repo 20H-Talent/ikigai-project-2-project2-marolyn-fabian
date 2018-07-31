@@ -5,7 +5,7 @@
 
 body {
     background-color: #fafafa;
-    font-family: sans-serif;
+    font-family: "Arial", "Roboto", sans-serif;
 }
 
 .debbug {
@@ -62,4 +62,8 @@ ul {
 
 .col {
     text-align: center;
+}
+
+.title {
+    font-size: 1.4em;
 }
