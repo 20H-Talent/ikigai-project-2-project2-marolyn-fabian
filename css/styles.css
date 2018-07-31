@@ -71,7 +71,21 @@ ul {
  */
 
 
+
+/* Link Styles */
+
+
+a {
+    text-decoration: none;
+    color: #494949;
+}
+
+a:hover {
+    color: rgb(115, 187, 187);
+}
+
 /*Footer*/
+
 
  footer {
     border-top: .5px solid #808080;
