@@ -74,22 +74,20 @@ ul {
 /*Footer*/
 
  footer {
-    border-top: 1px solid #808080;
+    border-top: .5px solid #808080;
     font-weight: bold;
+    margin: 0 20px;
   }
   
 .bottom-footer-left {
     text-align: left;  
     display: inline-block; 
-    padding: 0 16px;
 }
 
 .bottom-footer-rigth {
     text-align: right;
     float: right;
-    padding: 0 16px;
     text-transform: uppercase; 
-
 }
 
 
