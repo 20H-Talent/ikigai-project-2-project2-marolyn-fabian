@@ -98,44 +98,72 @@ a:hover {
   
 .bottom-footer-left {
     text-align: left;  
-    display: inline-block; 
+    display: inline-block;
+    float: left; 
 }
 
 .bottom-footer-rigth {
     text-align: right;
     float: right;
     text-transform: uppercase; 
+    padding: 15px;
+    margin: 0;
+}
+footer p  {
+    text-align: right;
+    float: right;
+    text-transform: uppercase; 
+    padding: 15px;
+    margin: 0;
 }
 
 
+.bottom-footer-rigth-two {
+     display: none;
+}
+
 /* Media Queries */
 
+@media (min-width: 720px) {
+
+.bottom-footer-rigth-two {
+     display: inline-block;
+     float: right;
+ }
+
+
+}
 @media (min-width: 768px) {
+
+    /* header's media */
+
     .introduction li{
       display: inline-block;
       background-color: #fafafa;
     }
+}
+
+    /* footer's media */
+
 
 @media (min-width: 1024px) {
+
+     /* header's media */
+
     .introduction {
-     padding: 0 20px;
+      padding: 0 20px;
     }
     .introduction li {
-     float: right;
+      float: right;
     }
-    h1 {
-     float: left;  
-     margin-top: 35px;
+     h1 {
+      float: left;  
+      margin-top: 35px;
     }
-}
+   }
 
-    
-  /* .wrap {
-    min-width: calc(100vh - 57.27px);
-}
-  .container {
-      width: 80%;
-      max-width: width 1024px;
-      margin: o auto;
-  } */
+
+
+
+
 }
