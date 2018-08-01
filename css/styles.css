@@ -108,13 +108,19 @@ a:hover {
 
 /* Media Queries */
 
-@media (min-width:768px) {
-  .wrap {
+@media (min-width: 768px) {
+    .introduction li{
+      display: inline-block;
+      background-color: #fafafa;
+    }
+
+    
+  /* .wrap {
     min-width: calc(100vh - 57.27px);
 }
   .container {
       width: 80%;
       max-width: width 1024px;
       margin: o auto;
-  }
+  } */
 }
