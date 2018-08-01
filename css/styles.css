@@ -17,11 +17,10 @@ img {
     align-content: center;    
 }
 
-h4 {
+h4, h2 {
     text-align: center;
     text-transform: uppercase; 
 }
-
 
 /* header */
 
@@ -34,18 +33,20 @@ header {
 
 }
 
-.cualquiera li {
+.introduction li {
     background-color: #ffffff;
     padding: 20px;
     margin: 10px;
     list-style-type: none;
-    text-transform: uppercase;
-
-    
+    text-transform: uppercase; 
 }
 
 ul {
     padding: 0 40px;
+}
+
+.introduction {
+    overflow: hidden;
 }
 
 /* face */
@@ -68,10 +69,92 @@ ul {
 .col {
     text-align: center;
     margin-top: 10px;
-    padding-bottom: 15px;
     color: #4a4a4a;
+}
+
+.col p {
+    padding: 0px 5%;
 }
 
 .title {
     font-size: 1.4em;
+}
+
+/* Link Styles */
+
+a {
+    text-decoration: none;
+    color: #494949;
+    display: block;
+}
+
+a:hover {
+    color: rgb(115, 187, 187);
+}
+
+/*Footer*/
+
+
+footer {
+    border-top: .5px solid #808080;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.bottom-footer-left {
+    text-align: left;  
+    display: inline-block;
+    float: left; 
+}
+
+.bottom-footer-rigth {
+    text-align: right;
+    float: right;
+    text-transform: uppercase; 
+    padding: 15px;
+    margin: 0;
+}
+
+.bottom-footer-rigth-two {
+    display: none;
+}
+
+/* Media Queries */
+
+@media (min-width: 720px) {
+
+.bottom-footer-rigth-two {
+    display: inline-block;
+    float: right;
+}
+
+
+}
+@media (min-width: 768px) {
+
+    /* header's media */
+
+    .introduction li{
+        display: inline-block;
+        background-color: #fafafa;
+    }
+}
+
+    /* footer's media */
+
+
+@media (min-width: 1024px) {
+
+     /* header's media */
+
+    .introduction {
+        padding: 0 20px;
+    }
+    .introduction li {
+        float: right;
+    }
+    h1 {
+        float: left;  
+        margin-top: 35px;
+    }
 }
