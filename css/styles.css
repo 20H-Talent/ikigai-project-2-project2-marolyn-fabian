@@ -1,3 +1,5 @@
+/* ============ GENERAL STYLES ====================== */
+
 * {
     box-sizing: border-box;
 }
@@ -22,7 +24,7 @@ h4, h2 {
     text-transform: uppercase; 
 }
 
-/* header */
+/* ============ HEADER STYLE ============  */
 
 header {
     /* display: inline-block; */
@@ -49,7 +51,7 @@ ul {
     overflow: hidden;
 }
 
-/* face */
+/* ============ FACE STYLE =============== */
 
 .face {
     /* justify-content: center; */
@@ -64,7 +66,7 @@ ul {
     width: 70%;
 }
 
-/* Seccions */
+/* ============ Seccions ============ */
 
 .col {
     text-align: center;
@@ -80,7 +82,7 @@ ul {
     font-size: 1.4em;
 }
 
-/* Link Styles */
+/* ============ Link Styles ============ */
 
 a {
     text-decoration: none;
@@ -92,7 +94,7 @@ a:hover {
     color: rgb(115, 187, 187);
 }
 
-/*Footer*/
+/* ============ Footer ============ */
 
 
 footer {
@@ -119,7 +121,7 @@ footer {
     display: none;
 }
 
-/* Media Queries */
+/* ============ Media Queries ============  */
 
 @media (min-width: 720px) {
 
