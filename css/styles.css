@@ -121,7 +121,7 @@ a:hover {
 /* ============ Footer ============ */
 
 footer {
-    border-top: .6px solid #808080;
+    border-top: 1px solid #808080;
     font-weight: bold;
     margin: 0 20px;
 }
@@ -156,9 +156,12 @@ footer li  {
     .bottom-footer-rigth-two li {
         display: inline-block;
     }
+    .bottom-footer-rigth {
+        display: none;
+    }
 
 
-        /* header's media */
+/* ========  header's media ============== */
 
     .introduction li {
         display: inline-block;
