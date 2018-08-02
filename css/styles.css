@@ -25,6 +25,9 @@ h4, h2 {
     text-transform: uppercase; 
 }
 
+.wrap {
+    margin: 0 auto;
+}
 /* ============ HEADER STYLE ============  */
 
 header {
@@ -203,16 +206,20 @@ footer li  {
 
     /* =========== Portfolio section ============*/
 
+    .columns,
     .portfolio {
         margin: 0 auto;
     }
-    .columns {
-        column-count: 2;
+
+    .row {
+        display:table-row;
     }
 
     .col {
+        width: 50%;
         margin-top: 0;
         overflow: hidden;
+        display: inline-table;
     }
 
     /* ===== Contact section ===== */
@@ -290,20 +297,22 @@ footer li  {
     /* ======= PORTFOLIO ======= */ 
 
     .columns {
-        column-count: 3;
-        column-fill: balance;
+        /* column-count: 3;
+        column-fill: balance; */
     }
 
+    .row {
+        display: inline;
+    }
     .col {
-        vertical-align: top;
-        width: auto;
+        width: 33%;
     }
 
     /* ==== Float clearfix ==== */
 
-    /* .group::after {
+    .group::after {
         content: "";
         display: table;
         clear: both;
-    } */
+    }
 }
