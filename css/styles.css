@@ -81,7 +81,7 @@ a:hover {
 
 
  footer {
-    border-top: .5px solid #808080;
+    border-top: .6px solid #808080;
     font-weight: bold;
     margin: 0 20px;
   }
@@ -100,16 +100,16 @@ a:hover {
     margin: 0;
 
 }
-footer p  {
+footer li  {
     text-align: right;
     float: right;
     text-transform: uppercase; 
-    padding: 15px;
+    padding: 0 15px;
     margin: 0;
 }
 
 
-.bottom-footer-rigth-two {
+.bottom-footer-rigth-two li {
      display: none;
 }
 
@@ -117,7 +117,7 @@ footer p  {
 
 @media (min-width: 768px) {
 
-.bottom-footer-rigth-two {
+.bottom-footer-rigth-two li {
      display: inline-block;
      float: right;
  }
