@@ -6,6 +6,7 @@
 
 
 body {
+    margin: 0 auto;
     background-color: #fafafa;
     font-family: "Arial", "Roboto", sans-serif;
 }
@@ -52,6 +53,12 @@ ul {
 }
 
 /* ============ FACE STYLE =============== */
+
+figure  {
+    margin: 0;
+    line-height: 0;
+    position: relative;
+}
 
 .face {
     /* justify-content: center; */
@@ -147,7 +154,18 @@ footer {
 
 @media (min-width: 1024px) {
 
-     /* header's media */
+
+    .wrap {
+        width: 90%;
+        padding: 5%;
+    }
+
+    img {
+        width: 90%;
+    }    
+    
+
+    /* ========  header's media ============== */
 
     .introduction {
         padding: 0 20px;
@@ -159,4 +177,44 @@ footer {
         float: left;  
         margin-top: 35px;
     }
+
+    /* ============ PORTFOLIO STYLE ================ */
+
+    figure  {
+        margin: 0;
+        line-height: 0;
+        position: relative;
+    }
+    
+    .face {
+        color: #808080;
+        padding: 0;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        overflow: auto;
+    }
+    
+    .face p {
+        width: 60%;
+        box-sizing: content-box;
+        font-size: 1.1em;
+        line-height: 1.2em;
+        text-align: left;
+    }
+    
+    .face img{
+        float: right;
+        width: auto;
+        margin-left: 20px;
+    }
+
+    /* ==== Float clearfix ==== */
+
+    /* .group::after {
+        content: "";
+        display: table;
+        clear: both;
+    } */
+
+
 }
