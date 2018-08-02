@@ -73,9 +73,10 @@ figure  {
     width: 70%;
 }
 
-/* ============ Seccions ============ */
+/* ============ Seccion Portfolio ============ */
 
 .col {
+    background-color: #ffffff;
     text-align: center;
     margin-top: 10px;
     color: #4a4a4a;
@@ -88,6 +89,17 @@ figure  {
 .title {
     font-size: 1.4em;
 }
+
+/* ================= Sección Contact ================= */
+
+.wrap-two {
+    background-color: #fafafa;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
 
 /* ============ Link Styles ============ */
 
