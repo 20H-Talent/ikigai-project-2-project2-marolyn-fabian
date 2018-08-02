@@ -161,12 +161,31 @@ footer li  {
     }
 
 
-/* ========  header's media ============== */
+    /* ======== header's media ======== */
 
     .introduction li {
         display: inline-block;
         background-color: #fafafa; 
     }
+
+    .col {
+        position: relative;
+        width: 33%;
+    }
+
+    .col2 {
+        position: relative;
+        float: right;
+        width: 33%;
+    }
+
+    /* ==== Float clearfix ==== */
+
+    .group::after {
+        content: "";
+        display: table;
+        clear: both;
+    } 
 }
 
 
