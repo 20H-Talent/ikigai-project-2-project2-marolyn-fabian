@@ -70,7 +70,6 @@ ul {
 a {
     text-decoration: none;
     color: #494949;
-    display: block;
 }
 
 a:hover {
@@ -86,13 +85,10 @@ footer {
   }
   
 .bottom-footer-left {
-    text-align: left;  
-    display: inline-block;
     float: left; 
 }
 
 .bottom-footer-rigth {
-    text-align: right;
     float: right;
     text-transform: uppercase; 
     padding: 15px;
@@ -100,7 +96,6 @@ footer {
 }
 
 footer li  {
-    text-align: right;
     float: right;
     text-transform: uppercase; 
     padding: 0 15px;
@@ -118,7 +113,6 @@ footer li  {
 
 .bottom-footer-rigth-two li {
      display: inline-block;
-     float: right;
  }
 
 
