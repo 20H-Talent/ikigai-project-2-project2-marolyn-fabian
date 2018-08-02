@@ -95,8 +95,10 @@ figure  {
 .wrap-two {
     background-color: #fafafa;
     text-align: center;
-    text-decoration: none;
+}
 
+.main-nav {
+    text-decoration: none;
 }
 
 
