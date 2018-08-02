@@ -79,8 +79,7 @@ a:hover {
 
 /*Footer*/
 
-
- footer {
+footer {
     border-top: .6px solid #808080;
     font-weight: bold;
     margin: 0 20px;
@@ -98,8 +97,8 @@ a:hover {
     text-transform: uppercase; 
     padding: 15px;
     margin: 0;
-
 }
+
 footer li  {
     text-align: right;
     float: right;
@@ -146,4 +145,3 @@ footer li  {
       margin-top: 35px;
     }
    }
-}
