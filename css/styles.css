@@ -74,8 +74,11 @@ figure  {
 
 /* ============ Seccion Portfolio ============ */
 
-.col {
+.portfolio {
     background-color: #ffffff;
+}
+
+.col {
     text-align: center;
     margin-top: 10px;
     color: #4a4a4a;
@@ -168,15 +171,55 @@ footer li  {
         background-color: #fafafa; 
     }
 
-    .col {
-        position: relative;
-        width: 33%;
+    /* ============ Face section ============= */
+    
+    .face {
+        color: #808080;
+        padding: 0;
+        margin: 50px;
+        overflow: auto;
     }
 
-    .col2 {
+
+    figure  {
+        margin: 0;
+        line-height: 0;
         position: relative;
+    }
+    
+    .face p {
+        width: 60%;
+        box-sizing: content-box;
+        font-size: 1.1em;
+        line-height: 1.2em;
+        text-align: left;
+    }
+    
+    .face img{
         float: right;
-        width: 33%;
+        width: auto;
+        margin-left: 20px;
+    }
+
+    /* =========== Portfolio section ============*/
+
+    .portfolio {
+        margin: 0 auto;
+    }
+    .columns {
+        column-count: 2;
+    }
+
+    .col {
+        margin-top: 0;
+        overflow: hidden;
+    }
+
+    /* ===== Contact section ===== */
+
+    .container {
+        width: 70%;
+        margin: 0 auto;
     }
 
     /* ==== Float clearfix ==== */
@@ -214,7 +257,7 @@ footer li  {
         margin-top: 35px;
     }
 
-    /* ============ PORTFOLIO STYLE ================ */
+    /* ============ Face STYLE ================ */
 
     figure  {
         margin: 0;
@@ -242,6 +285,18 @@ footer li  {
         float: right;
         width: auto;
         margin-left: 20px;
+    }
+
+    /* ======= PORTFOLIO ======= */ 
+
+    .columns {
+        column-count: 3;
+        column-fill: balance;
+    }
+
+    .col {
+        vertical-align: top;
+        width: auto;
     }
 
     /* ==== Float clearfix ==== */
