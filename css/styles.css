@@ -107,6 +107,10 @@ figure  {
     padding: 0px 5%;
 }
 
+.container p{
+    padding: 0px 5%;
+}
+
 .main-nav strong {
     margin-left: 10px;
 }
