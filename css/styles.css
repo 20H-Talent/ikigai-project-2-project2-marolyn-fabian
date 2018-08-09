@@ -148,7 +148,6 @@ footer {
 }
 
 footer li  {
-    float: right;
     text-transform: uppercase; 
     padding: 0 15px;
     margin: 0;
@@ -162,6 +161,10 @@ footer li  {
 /* ============ Media Queries ============  */
 
 @media (min-width: 768px) {
+
+    nav {
+        float: right;
+    }
 
     .bottom-footer-rigth-two li {
         display: inline-block;
@@ -260,7 +263,7 @@ footer li  {
     .introduction {
         padding: 0 20px;
     }
-    .introduction li {
+    nav {
         float: right;
     }
     h1 {
@@ -311,6 +314,13 @@ footer li  {
     .col {
         width: 33%;
     }
+
+     /* ======= Footer ======= */ 
+
+     nav { 
+         display: inline;
+     }
+
 
     /* ==== Float clearfix ==== */
 
