@@ -165,6 +165,9 @@ footer li  {
 
 @media (min-width: 768px) {
 
+    footer nav {
+        float: right;
+    }
 
     .bottom-footer-rigth-two li {
         display: inline-block;
